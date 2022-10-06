@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.container {
+    display: flex;   
+}
+
+.cabecalho {
+    
+    display: flex;
+    flex-wrap: wrap;    
+    margin: 0 auto;
+    padding: 0 2%;
+    background: linear-gradient(rgb(19, 15, 11),rgb(37, 31, 22),rgb(54, 47, 38));
+}
+.imgLogo{
+    width: 190px;
+    height: 72px;
+}
+.logo {
+    width: 139px;
+    height: 76px;    
+    width: 50%;
+}
+
+.nav {    
+    text-align: start;
+    width: 50%;
+    height: 70px;
+    padding-top: 17px;
+      
+}
+nav {
+    padding-top: 25px;
+}
+.nav ul {
+    list-style: none;
+    
+}
+
+.nav a {   
+    padding: 10px;
+    color: burlywood; 
+    text-decoration: none;     
+}
+
+.nav ul li :hover {
+    
+    border-bottom: 2px solid burlywood;
+}
+
+
+.nav ul li {
+    padding-right: 10px;
+    display: inline;
+    width: 150px;
+    
+}
+h5 {
+    color: brown;
+}
+small {
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 250, 231);
+    
+}
+img {    
+    width: 171px;
+    height: 190px;
+}
+.produtos {
+    max-width: 70%;
+    flex-wrap: wrap;
+    padding: 70px ;
+    display: flex;
+    width: 945px;
+}
+
+
+.produtos div {   
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+.camiseta1 {
+    flex-direction: column;     
+    max-width: 250px;
+    
+}
+
+.info p {
+    
+    display: flex;
+}
+
+.produtos div h1 {
+    line-height: 24px;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 15px;
+    gap: 15px;
+    max-width: 216px;
+}
+.zoom img{    
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .zoom:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+
+ .carrinho a {
+     
+     font-size: 16px; 
+     background-color: black;   
+     color: rgb(255, 255, 255);
+     border: 2px solid rgba(114, 36, 16, 0.61);
+     padding: 5px;
+     border-radius: 20px;
+     text-decoration: none;
+    
+     
+ }
+
+ .carrinho :hover {
+    transition: ease;
+     background:linear-gradient(rgb(173, 129, 70),burlywood,rgb(211, 200, 186));
+     color: black;
+     transition:all 0.3s ease;
+ }
+
+ .finalizarCompra {
+     padding: 50px;
+     justify-content: end;
+     
+     
+     
+ }
+ .text {
+    width: 178px;
+    height: 35px;
+    border: none;
+ }
+.pesquisa {
+    padding: 25px;
+    display: flex;
+    
+}
+ .pesquisar {
+    width: 72px;
+    height: 35px;
+    border: none;
+    background: linear-gradient(rgb(84 59 8),#20170b,rgb(100 62 14));
+    color: beige;
+    border-radius: 5px;
+
+ }
+
+
+.textCarrinho{
+    text-align: center;
+    padding: 25px;
+    border: 1px solid black;
+    background-color: #20170b;
+    color: burlywood;
+}
+.itens {
+    font-size: 10px;
+    padding-top: 20px;
+    border: 1px solid black;   
+    height: 250px;
+    flex-wrap: wrap;
+    max-width: 299px;
+    overflow-y: scroll;
+    
+}
+.itens input {
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    font-size: 7px;
+    padding: 5px;
+}
+.remover {
+    justify-content: flex-end;
+    
+}
+.itens img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+}
+
+
+.informacoes{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.itensCarrinho {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    background-color: rgba(109, 109, 99, 0.363);
+    margin: 10px;
+    text-align: start;
+}
+.vendas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    
+}
+
+.addRoupa {
+    padding: 10px;
+    font-size: 8px;
+    background-color: burlywood;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    text-align: center;    
+}
+
+.form {
+    padding: 20px;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.add{
+    display: flex;
+    justify-items: flex-end;
+    
+    
+}
+.add input {
+    border: none;
+    margin-top: 10px;
+    width: 172px;
+}
+.add :hover {
+    background-color: brown;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+.somaCarrinho {
+
+    flex-direction: column;
+    display: flex;
+    background-color: rgba(56, 45, 31, 0.473);
+    
+}
+.quantidade {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.somaCarrinho p {
+    font-size: 20px;
+}
